@@ -2,12 +2,13 @@ const searchForm = document.getElementById('search-form')
 const searchInput = document.getElementById('search-input')
 const resultsEl = document.getElementById('results')
 
-searchForm.addEventListener('submit', function(e) {
+searchForm.addEventListener('submit', submitSearch)
+
+function submitSearch(e) {
     e.preventDefault()
     const q = searchInput.value
     search(q)
-
-})
+}
 
 function search(q) {
     const apikey = 'AO494tEsU7J485MBG9k0EPeCbpXpporV'
