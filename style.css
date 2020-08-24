@@ -1,0 +1,65 @@
+body {
+    background-color: rgba(109, 155, 254, 0.687);
+    font-family: 'Lucida Console', Courier, monospace;
+    font-size: 1.2em;
+    color: rgb(45, 45, 45);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 1em;
+    color: rgb(75, 75, 75);
+}
+
+button {
+    width: 100px;
+    height: 54px;
+    margin-top: 1em;
+    border: 1px solid yellowgreen;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Lucida Console', Courier, monospace;
+}
+
+button:hover {
+    background-color: rgb(104, 140, 33);
+}
+
+div.results {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img {
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.footer-text {
+    size: 2em;
+}
